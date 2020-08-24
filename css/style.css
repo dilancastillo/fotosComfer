@@ -1,0 +1,89 @@
+* {
+  font-weight: 300;
+  font-family: "Maven Pro", sans-serif;
+}
+
+:root {
+  --primary: #504f4f;
+  --light: #e9630b;
+  --grey: #efefef;
+}
+
+/* Página principal */
+
+.navbar {
+  background-color: var(--grey) !important;
+  box-shadow: none;
+}
+
+.carousel-item img {
+  height: 100%;
+  max-height: 550px;
+}
+
+.view img {
+  height: 100%;
+  max-height: 350px;
+}
+
+.btn {
+  background-color: var(--primary) !important;
+  border: 0;
+}
+
+.page-footer {
+  background-color: var(--primary) !important;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.containerItems .item {
+  transition: all 0.4s;
+}
+
+.containerItems .item a{
+  width: 100%;
+  height: 100%;
+}
+
+.btn-search {
+  right: 5px;
+  background-color: #ffffff !important;
+  border-radius: none;
+}
+
+.menu {
+  margin-top: 66.4px;
+}
+
+.cursor-zoom-in {
+  cursor: zoom-in;
+}
+
+.figure-caption {
+  font-size: 90%;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 600;
+  background-color: var(--light) !important;
+}
+
+.img-thumbnail {
+  padding: 0.5rem;
+  border: 2px solid #868e96;
+  border-radius: 0;
+  background-color: #efefef;
+}
+
+/* Buscador de contenido */
+.form-search {
+  width: 640px;
+  margin: 20px auto;
+}
+
+.search-item {
+  width: 100%;
+  height: 35px;
+}

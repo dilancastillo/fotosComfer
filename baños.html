@@ -1,0 +1,836 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COMFER - Baños</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/mdb.min.css">
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top border-bottom">
+            <a class="navbar-brand font-weight-bold" href="./index.html"><img src="./img/logo.png"
+                    class="img-fluid w-25 h-25"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="./index.html">Inicio <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./baños.html">Baños</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./exteriores.html">Exteriores</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./interiores.html">Interiores</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./cocinas.html">Cocinas</a>
+                    </li>
+                </ul>
+                <form class="form-inline ">
+                    <input class="form-control search-item" type="search" placeholder="Buscar" aria-label="Search">
+                </form>
+            </div>
+        </nav>
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-light menu">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link category_item" category="all" href="#">Todos <span
+                                class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link category_item" category="maderas" href="#">Maderas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link category_item" category="marmolizado" href="#">Marmolizado</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link category_item" category="naturales" href="#">Naturales</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link category_item" category="modernos" href="#">Modernos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link category_item" category="hidraulico" href="#">Hidráulico</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link category_item" category="decorativo" href="#">Decorativo</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link category_item" category="piedra" href="#">Piedra</a>
+                    </li>
+                   
+                    <li class="nav-item">
+                        <a class="nav-link category_item" category="oxido" href="#">Óxido</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <section id="categorias">
+        <div class="container">
+            <div class="text-center mt-5">
+                <h2>Bienvenido a Comfer</h2>
+                <p class="lead">Baños</p>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="row mr-3 ml-3">
+            <div class="col-md-12">
+                <div id="mdb-lightbox-ui"></div>
+                <div class="mdb-lightbox containerItems">
+                    <figure class="item col-md-4" category="marmolizado" data-filter="abril gris claro blanco marmolizado corona"
+                        data-search="abril gris claro marmolizado corona">
+                        <a href="./img/baño_pared_abril_gris_claro_1.jpg" data-size="2000x1600">
+                            <img src="./img/baño_pared_abril_gris_claro_1.jpg" class="img-fluid" alt="">
+                        </a>
+                        <figcaption>Pared: Abril gris claro</figcaption>
+                    </figure>
+                    <figure class="item col-md-4" category="marmolizado" data-search="abril gris claro blanco marmolizado corona">
+                        <a href="./img/baño_pared_abril_gris_claro_2.jpg" data-size="2000x1600">
+                            <img src="./img/baño_pared_abril_gris_claro_2.jpg" class="img-fluid" alt="">
+                        </a>
+                        <figcaption>Pared: Abril gris claro</figcaption>
+                    </figure>
+                    <figure class="item col-md-4" category="naturales" data-search="alison marfil beige gris naturales corona">
+                        <a href="./img/baño_pared_alison_marfil.jpg" data-size="2000x1600">
+                            <img src="./img/baño_pared_alison_marfil.jpg" class="img-fluid" alt="">
+                        </a>
+                        <figcaption>Pared: Alison marfil</figcaption>
+                    </figure>
+                    <figure class="item col-md-4" category="hidraulico" data-search="cuadrado kaled azul beige hidraulico corona">
+                        <a href="./img/baño_pared_cuadrado_kaled_azul.jpg" data-size="1200x1600">
+                            <img src="./img/baño_pared_cuadrado_kaled_azul.jpg" class="img-fluid" alt="">
+                        </a>
+                        <figcaption>Pared: Cuadrado kaled azul</figcaption>
+                    </figure>
+                    <figure class="item col-md-4" category="naturales" data-search="munich gris claro cafe naturales corona">
+                        <a href="./img/baño_pared_munich_gris_claro.jpg" data-size="2000x1600">
+                            <img src="./img/baño_pared_munich_gris_claro.jpg" class="img-fluid" alt="">
+                        </a>
+                        <figcaption>Pared: Munich gris claro</figcaption>
+                    </figure>
+                    <figure class="item col-md-4" category="modernos" data-search="myra blanco gris modernos corona">
+                        <a href="./img/baño_pared_myra_blanca_1.jpg" data-size="2000x1600">
+                            <img src="./img/baño_pared_myra_blanca_1.jpg" class="img-fluid" alt="">
+                        </a>
+                        <figcaption>Pared: Myra blanca</figcaption>
+                    </figure>
+                    <figure class="item col-md-4" category="modernos" data-search="myra blanco beige gris modernos corona">
+                        <a href="./img/baño_pared_myra_blanco_2.jpg" data-size="2000x1600">
+                            <img src="./img/baño_pared_myra_blanco_2.jpg" class="img-fluid" alt="">
+                        </a>
+                        <figcaption>Pared: Myra blanca</figcaption>
+                    </figure>
+                    <figure class="item col-md-4" category="modernos" data-search="myra blanco castano cafe modernos corona">
+                        <a href="./img/baño_pared_myra_blanco_castano.jpg" data-size="2000x1600">
+                            <img src="./img/baño_pared_myra_blanco_castano.jpg" class="img-fluid" alt="">
+                        </a>
+                        <figcaption>Pared: Myra blanca</figcaption>
+                    </figure>
+                    <figure class="item col-md-4" category="maderas" data-search="ankara cafe beige maderas corona">
+                        <a href="./img/baño_piso_ankara_cafe.jpg" data-size="2000x1600">
+                            <img src="./img/baño_piso_ankara_cafe.jpg" class="img-fluid" alt="">
+                        </a>
+                        <figcaption>Piso: Ankara café</figcaption>
+                    </figure>
+                    <figure class="item col-md-4" category="naturales" data-search="fenicia oxido cafe blanco naturales corona">
+                        <a href="./img/baño_piso_fenicia_oxido.jpg" data-size="2000x1600">
+                            <img src="./img/baño_piso_fenicia_oxido.jpg" class="img-fluid" alt="">
+                        </a>
+                        <figcaption>Piso: Fenicia óxido</figcaption>
+                    </figure>
+                    <figure class="item col-md-4" category="marmolizado" data-search="mikonos arcoiris ard negro blanco marmolizado corona">
+                        <a href="./img/baño_piso_mikonos_arcoiris_ard_negro_1.jpg" data-size="2000x1600">
+                            <img src="./img/baño_piso_mikonos_arcoiris_ard_negro_1.jpg" class="img-fluid" alt="">
+                        </a>
+                        <figcaption>Piso: Mikonos arcoiris ard negro</figcaption>
+                    </figure>
+                    <figure class="item col-md-4" category="maderas" data-search="prato gris maderas corona">
+                        <a href="./img/baño_piso_prato_gris.jpg" data-size="2000x1600">
+                            <img src="./img/baño_piso_prato_gris.jpg" class="img-fluid" alt="">
+                        </a>
+                        <figcaption>Piso: Prato gris</figcaption>
+                    </figure>
+                    <figure class="item col-md-4" category="modernos" data-search="alcain blanco gris modernos corona">
+                        <a href="./img/baño_pared_alcain_blanco_1.jpg" data-size="2000x1600">
+                            <img src="./img/baño_pared_alcain_blanco_1.jpg" class="img-fluid" alt="">
+                        </a>
+                        <figcaption>Pared: Alcain blanco</figcaption>
+                    </figure>
+                    <figure class="item col-md-4" category="modernos" data-search="alcain blanco modernos corona">
+                        <a href="./img/baño_pared_alcain_blanco_2.jpg" data-size="2000x1600">
+                            <img src="./img/baño_pared_alcain_blanco_2.jpg" class="img-fluid" alt="">
+                        </a>
+                        <figcaption>Pared: Alcain blanco</figcaption>
+                    </figure>
+                    <figure class="item col-md-4" category="marmolizado" data-search="duomo blanco negro gris marmolizado corona">
+                        <a href="./img/baño_pared_duomo_blanco.jpg" data-size="2000x1600">
+                            <img src="./img/baño_pared_duomo_blanco.jpg" class="img-fluid" alt="">
+                        </a>
+                        <figcaption>Pared: Duomo blanco</figcaption>
+                    </figure>
+                    <figure class="item col-md-4" category="marmolizado" data-search="tripoli multicolor gris beige marmolizado corona">
+                        <a href="./img/baño_piso_tripoli_multicolor.jpg" data-size="1200x1400">
+                            <img src="./img/baño_piso_tripoli_multicolor.jpg" class="img-fluid" alt="">
+                        </a>
+                        <figcaption>Piso: Tripoli multicolor</figcaption>
+                    </figure>
+                    <figure class="item col-md-4" category="marmolizado" data-search="mikonos arcoiris ard negro blanco marmolizado corona">
+                        <a href="./img/baño_piso_mikonos_arcoiris_ard_negro_2.jpg" data-size="1200x1400">
+                            <img src="./img/baño_piso_mikonos_arcoiris_ard_negro_2.jpg" class="img-fluid" alt="">
+                        </a>
+                        <figcaption>Piso: Mikonos arcoiris ard negro</figcaption>
+                    </figure>
+                    <figure class="item col-md-4" category="marmolizado" data-search="mikonos arcoiris ard negro blanco marmolizado corona">
+                        <a href="./img/baño_piso_mikonos_arcoiris_ard_negro_3.jpg" data-size="2000x1600">
+                            <img src="./img/baño_piso_mikonos_arcoiris_ard_negro_3.jpg" class="img-fluid" alt="">
+                        </a>
+                        <figcaption>Piso: Mikonos arcoiris ard negro</figcaption>
+                    </figure>
+                    <figure class="item col-md-4" category="maderas" data-search="mueble vital vessel blanco maderas corona">
+                        <a href="./img/baño_mueble_vital_vessel.jpg" data-size="1200x1600">
+                            <img src="./img/baño_mueble_vital_vessel.jpg" class="img-fluid" alt="">
+                        </a>
+                        <figcaption>Mueble vital vessel</figcaption>
+                    </figure>
+                    <figure class="item col-md-4" category="naturales" data-search="petra tortora cafe naturales corona">
+                        <a href="./img/baño_piso_petra_tortora.jpg" data-size="2000x1600">
+                            <img src="./img/baño_piso_petra_tortora.jpg" class="img-fluid" alt="">
+                        </a>
+                        <figcaption>Piso: Petra tortora</figcaption>
+                    </figure>
+                    <figure class="item col-md-4" category="maderas" data-search="yarumo tabaco gris cafe maderas corona">
+                        <a href="./img/baño_piso_yarumo_tabaco.jpg" data-size="2000x1600">
+                            <img src="./img/baño_piso_yarumo_tabaco.jpg" class="img-fluid" alt="">
+                        </a>
+                        <figcaption>Piso: Yarumo tabaco</figcaption>
+                    </figure>
+                    <figure class="item col-md-4" category="naturales" data-search="blanco gris naturales alfa">
+                        <a href="./img/baño_pared_blanco.jpg" data-size="2000x1600">
+                            <img src="./img/baño_pared_blanco.jpg" class="img-fluid" alt="">
+                        </a>
+                        <figcaption>Pared: Blanco</figcaption>
+                    </figure>
+                    <figure class="item col-md-4" category="piedra" data-search="emilia gris piedra alfa">
+                        <a href="./img/baño_piso_emilia_gris.jpg" data-size="2000x1200">
+                            <img src="./img/baño_piso_emilia_gris.jpg" class="img-fluid" alt="">
+                        </a>
+                        <figcaption>Piso: Emilia gris</figcaption>
+                    </figure>
+                    <figure class="item col-md-4" category="naturales" data-search="lisboa ceniza gris naturales alfa">
+                        <a href="./img/baño_piso_lisboa_ceniza.jpg" data-size="1200x1600">
+                            <img src="./img/baño_piso_lisboa_ceniza.jpg" class="img-fluid" alt="">
+                        </a>
+                        <figcaption>Piso: Lisboa ceniza</figcaption>
+                    </figure>
+                    <figure class="item col-md-4" category="piedra" data-search="lisboa habano beige blanco piedra alfa">
+                        <a href="./img/baño_piso_lisboa_habano.jpg" data-size="1200x1600">
+                            <img src="./img/baño_piso_lisboa_habano.jpg" class="img-fluid" alt="">
+                        </a>
+                        <figcaption>Pared: Lisboa habano</figcaption>
+                    </figure>
+                    <figure class="item col-md-4" category="piedra" data-search="mystic beige piedra alfa">
+                        <a href="./img/baño_pared_mystic_beige.jpg" data-size="2000x1200">
+                            <img src="./img/baño_pared_mystic_beige.jpg" class="img-fluid" alt="">
+                        </a>
+                        <figcaption>Piso: Mystic beige</figcaption>
+                    </figure>
+                    <figure class="item col-md-4" category="naturales" data-search="mystic gris estructurada naturales alfa">
+                        <a href="./img/baño_piso_mystic_gris_estructurada.jpg" data-size="2000x1200">
+                            <img src="./img/baño_piso_mystic_gris_estructurada.jpg" class="img-fluid" alt="">
+                        </a>
+                        <figcaption>Piso: Mystic gris estructurada</figcaption>
+                    </figure>
+                    <figure class="item col-md-4" category="naturales" data-search="pompei shell beige naturales alfa">
+                        <a href="./img/baño_pared_pompei_shell.jpg" data-size="1200x1600">
+                            <img src="./img/baño_pared_pompei_shell.jpg" class="img-fluid" alt="">
+                        </a>
+                        <figcaption>Pared: Pompei shell</figcaption>
+                    </figure>
+                    <figure class="item col-md-4" category="naturales" data-search="stone cafe beige naturales marmolizado alfa">
+                        <a href="./img/baño_piso_stone.jpg" data-size="2000x1400">
+                            <img src="./img/baño_piso_stone.jpg" class="img-fluid" alt="">
+                        </a>
+                        <figcaption>Piso: Stone</figcaption>
+                    </figure>
+                    <figure class="item col-md-4" category="naturales" data-search="stone cafe beige naturales marmolizado alfa">
+                        <a href="./img/baño_pared_stone.jpg" data-size="1200x1600">
+                            <img src="./img/baño_pared_stone.jpg" class="img-fluid" alt="">
+                        </a>
+                        <figcaption>Pared: Stone</figcaption>
+                    </figure>
+                    <figure class="item col-md-4" category="oxido" data-search="praga bronce cafe oxido alfa">
+                        <a href="./img/baño_pared_praga_hd.jpg" data-size="2000x1600">
+                            <img src="./img/baño_pared_praga_hd.jpg" class="img-fluid" alt="">
+                        </a>
+                        <figcaption>Pared: Praga hd</figcaption>
+                    </figure>
+                    <figure class="item col-md-4" category="naturales" data-search="pompei shell beige naturales alfa">
+                        <a href="./img/baño_pared_pompei_shell_2.jpg" data-size="2000x1600">
+                            <img src="./img/baño_pared_pompei_shell_2.jpg" class="img-fluid" alt="">
+                        </a>
+                        <figcaption>Pared: Pompei shell</figcaption>
+                    </figure>
+                    <figure class="item col-md-4" category="piedra" data-search="mystic gris piedra alfa">
+                        <a href="./img/baño_piso_mystic_gris.jpg" data-size="2000x1200">
+                            <img src="./img/baño_piso_mystic_gris.jpg" class="img-fluid" alt="">
+                        </a>
+                        <figcaption>Piso: Mystic gris</figcaption>
+                    </figure>
+                    <figure class="item col-md-4" category="piedra" data-search="mystic beige piedra alfa">
+                        <a href="./img/baño_pared_mystic_beige_2.jpg" data-size="2000x1200">
+                            <img src="./img/baño_pared_mystic_beige_2.jpg" class="img-fluid" alt="">
+                        </a>
+                        <figcaption>Pared: Mystic beige</figcaption>
+                    </figure>
+                    <figure class="item col-md-4" category="naturales" data-search="lianas naranja blanco naturales alfa">
+                        <a href="./img/baño_pared_lianas_naranja.jpg" data-size="2000x1600">
+                            <img src="./img/baño_pared_lianas_naranja.jpg" class="img-fluid" alt="">
+                        </a>
+                        <figcaption>Pared: Lianas naranja</figcaption>
+                    </figure>
+                    <figure class="item col-md-4" category="naturales" data-search="lianas blanco naturales alfa">
+                        <a href="./img/baño_pared_lianas_blanco.jpg" data-size="1200x1600">
+                            <img src="./img/baño_pared_lianas_blanco.jpg" class="img-fluid" alt="">
+                        </a>
+                        <figcaption>Pared: Lianas blanco</figcaption>
+                    </figure>
+                    <figure class="item col-md-4" category="naturales" data-search="lianas blanco naturales alfa">
+                        <a href="./img/baño_pared_lianas_blanco_2.jpg" data-size="2000x1200">
+                            <img src="./img/baño_pared_lianas_blanco_2.jpg" class="img-fluid" alt="">
+                        </a>
+                        <figcaption>Pared: Lianas blanco</figcaption>
+                    </figure>
+                    <figure class="item col-md-4" category="naturales" data-search="lianas azul blanco naturales alfa">
+                        <a href="./img/baño_pared_lianas_azul.jpg" data-size="2000x1600">
+                            <img src="./img/baño_pared_lianas_azul.jpg" class="img-fluid" alt="">
+                        </a>
+                        <figcaption>Pared: Lianas azul</figcaption>
+                    </figure>
+                    <figure class="item col-md-4" category="naturales" data-search="lianas azul blanco naturales alfa">
+                        <a href="./img/baño_pared_lianas_azul_2.jpg" data-size="2000x1600">
+                            <img src="./img/baño_pared_lianas_azul_2.jpg" class="img-fluid" alt="">
+                        </a>
+                        <figcaption>Pared: Lianas azul</figcaption>
+                    </figure>
+                    <figure class="item col-md-4" category="naturales" data-search="lianas blanco naturales alfa">
+                        <a href="./img/baño_pared_lianas.jpg" data-size="2000x1600">
+                            <img src="./img/baño_pared_lianas.jpg" class="img-fluid" alt="">
+                        </a>
+                        <figcaption>Pared: Lianas</figcaption>
+                    </figure>
+                    <figure class="item col-md-4" category="naturales" data-search="lazo blanco gris naturales modernos alfa">
+                        <a href="./img/baño_pared_lazo.jpg" data-size="2000x1600">
+                            <img src="./img/baño_pared_lazo.jpg" class="img-fluid" alt="">
+                        </a>
+                        <figcaption>Pared: Lazo</figcaption>
+                    </figure>
+                    <figure class="item col-md-4" category="naturales" data-search="juro multicolor blanco naturales alfa">
+                        <a href="./img/baño_pared_juro.jpg" data-size="2000x1600">
+                            <img src="./img/baño_pared_juro.jpg" class="img-fluid" alt="">
+                        </a>
+                        <figcaption>Pared: Juro</figcaption>
+                    </figure>
+                    <figure class="item col-md-4" category="modernos" data-search="fachaleta dakota gris modernos alfa">
+                        <a href="./img/baño_pared_fachaleta_dakota_gris.jpg" data-size="1200x1400">
+                            <img src="./img/baño_pared_fachaleta_dakota_gris.jpg" class="img-fluid" alt="">
+                        </a>
+                        <figcaption>Pared: Fachaleta dakota gris</figcaption>
+                    </figure>
+                    <figure class="item col-md-4" category="hidraulico" data-search="ecoceramica blanco azul naturales marmolizado hidraulico alfa">
+                        <a href="./img/baño_pared_ecoceramica.jpg" data-size="2000x1600">
+                            <img src="./img/baño_pared_ecoceramica.jpg" class="img-fluid" alt="">
+                        </a>
+                        <figcaption>Pared: Ecoceramica blanca</figcaption>
+                    </figure>
+                    <figure class="item col-md-4" category="marmolizado" data-search="celia beige blanco negro marmolizado alfa">
+                        <a href="./img/baño_pared_celia_beige.jpg" data-size="2000x1600">
+                            <img src="./img/baño_pared_celia_beige.jpg" class="img-fluid" alt="">
+                        </a>
+                        <figcaption>Pared: Celia beige</figcaption>
+                    </figure>
+                    <figure class="item col-md-4" category="naturales" data-search="blanco satinado naturales alfa">
+                        <a href="./img/baño_pared_blanco_satinado.jpg" data-size="2000x1600">
+                            <img src="./img/baño_pared_blanco_satinado.jpg" class="img-fluid" alt="">
+                        </a>
+                        <figcaption>Pared: Blanco satinado</figcaption>
+                    </figure>
+                    <figure class="item col-md-4" category="naturales" data-search="blanco satinado naturales alfa">
+                        <a href="./img/baño_pared_blanco_satinado_2.jpg" data-size="2000x1600">
+                            <img src="./img/baño_pared_blanco_satinado_2.jpg" class="img-fluid" alt="">
+                        </a>
+                        <figcaption>Pared: Blanco satinado</figcaption>
+                    </figure>
+                    <figure class="item col-md-4" category="maderas" data-search="macerata wengue cafe gris maderas italia">
+                        <a href="./img/baño_piso_macerata_wengue.jpg" data-size="2000x1600">
+                            <img src="./img/baño_piso_macerata_wengue.jpg" class="img-fluid" alt="">
+                        </a>
+                        <figcaption>Piso: Macerata wengue</figcaption>
+                    </figure>
+                    <figure class="item col-md-4" category="maderas" data-search="monserrate beige cafe maderas italia">
+                        <a href="./img/baño_pared_monserrate_beige_piso_monserrate_cafe.jpg" data-size="2000x1600">
+                            <img src="./img/baño_pared_monserrate_beige_piso_monserrate_cafe.jpg" class="img-fluid"
+                                alt="">
+                        </a>
+                        <figcaption>Pared: Monserrate beige <br> Piso: Monserrate café</figcaption>
+                    </figure>
+                    <figure class="item col-md-4" category="oxido" data-search="portoferraio niquel beige cafe oxido italia">
+                        <a href="./img/baño_piso_portoferraio_niquel.jpg" data-size="2000x1600">
+                            <img src="./img/baño_piso_portoferraio_niquel.jpg" class="img-fluid" alt="">
+                        </a>
+                        <figcaption>Piso: Portoferraio niquel</figcaption>
+                    </figure>
+                    <figure class="item col-md-4" category="hidraulico" data-search="savelli azul hidraulico italia">
+                        <a href="./img/baño_piso_savelli.jpg" data-size="2000x1600">
+                            <img src="./img/baño_piso_savelli.jpg" class="img-fluid" alt="">
+                        </a>
+                        <figcaption>Piso: Savelli</figcaption>
+                    </figure>
+                    <figure class="item col-md-4" category="hidraulico" data-search="savelli azul gris hidraulico italia">
+                        <a href="./img/baño_piso_savelli_2.jpg" data-size="2000x1600">
+                            <img src="./img/baño_piso_savelli_2.jpg" class="img-fluid" alt="">
+                        </a>
+                        <figcaption>Piso: Savelli</figcaption>
+                    </figure>
+                    <figure class="item col-md-4" category="decorativo" data-search="decorado art aranda gris blanco negro decorativo decorceramica">
+                        <a href="./img/baño_pared_decorado_art_aranda.jpg" data-size="2000x1600">
+                            <img src="./img/baño_pared_decorado_art_aranda.jpg" class="img-fluid" alt="">
+                        </a>
+                        <figcaption>Pared: Decorado art aranda</figcaption>
+                    </figure>
+                    <figure class="item col-md-4" category="decorativo" data-search="decorado art village multicolor cafe blanco decorativo decorceramica">
+                        <a href="./img/baño_pared_decorado_art_village.jpg" data-size="2000x1600">
+                            <img src="./img/baño_pared_decorado_art_village.jpg" class="img-fluid" alt="">
+                        </a>
+                        <figcaption>Pared: Decorado art village multicolor</figcaption>
+                    </figure>
+                    <figure class="item col-md-4" category="decorativo" data-search="decorado lyric acqua azul gris decorativo hidraulico decorceramica">
+                        <a href="./img/baño_pared_decorado_lyric_acqua.jpg" data-size="2000x1600">
+                            <img src="./img/baño_pared_decorado_lyric_acqua.jpg" class="img-fluid" alt="">
+                        </a>
+                        <figcaption>Pared: Decorado lyric acqua</figcaption>
+                    </figure>
+                    <figure class="item col-md-4" category="decorativo" data-search="decorado mandala multicolor cafe blanco decorativo decorceramica">
+                        <a href="./img/baño_pared_mandala.jpg" data-size="2000x1600">
+                            <img src="./img/baño_pared_mandala.jpg" class="img-fluid" alt="">
+                        </a>
+                        <figcaption>Pared: Decorado mandala multicolor</figcaption>
+                    </figure>
+                    <figure class="item col-md-4" category="decorativo" data-search="decorado provence azul gris cafe decorativo decorceramica">
+                        <a href="./img/baño_pared_decorado_provence_azul.jpg" data-size="2000x1600">
+                            <img src="./img/baño_pared_decorado_provence_azul.jpg" class="img-fluid" alt="">
+                        </a>
+                        <figcaption>Pared: Decorado provence azul</figcaption>
+                    </figure>
+                    <figure class="item col-md-4" category="hidraulico" data-search="mosaico rio chevron azul blanco hidraulico decorativo decorceramica">
+                        <a href="./img/baño_pared_mosaico_rio_chevron_azul.jpg" data-size="2000x1600">
+                            <img src="./img/baño_pared_mosaico_rio_chevron_azul.jpg" class="img-fluid" alt="">
+                        </a>
+                        <figcaption>Pared: Mosaico rio chevron azul</figcaption>
+                    </figure>
+                    <figure class="item col-md-4" category="decorativo" data-search="tiziano multicolor gris decorativo decorceramica">
+                        <a href="./img/baño_pared_tiziano_multicolor.jpg" data-size="2000x1600">
+                            <img src="./img/baño_pared_tiziano_multicolor.jpg" class="img-fluid" alt="">
+                        </a>
+                        <figcaption>Pared: Tiziano multicolor</figcaption>
+                    </figure>     
+                    <figure class="item col-md-4" category="naturales" data-search="negro cafe gris blanco naturales">
+                        <a href="./img/baño_pinterest (2).jpg" data-size="1200x1600">
+                            <img src="./img/baño_pinterest (2).jpg" class="img-fluid" alt="">
+                        </a>
+                        <figcaption></figcaption>
+                    </figure>
+                    <figure class="item col-md-4" category="oxido" data-search="gris negro oxido piedra">
+                        <a href="./img/baño_pinterest (3).jpg" data-size="1200x1600">
+                            <img src="./img/baño_pinterest (3).jpg" class="img-fluid" alt="">
+                        </a>
+                        <figcaption></figcaption>
+                    </figure>
+                    <figure class="item col-md-4" category="naturales" data-search="blanco naturales">
+                        <a href="./img/baño_pinterest (5).jpg" data-size="1200x1600">
+                            <img src="./img/baño_pinterest (5).jpg" class="img-fluid" alt="">
+                        </a>
+                        <figcaption></figcaption>
+                    </figure>
+                    <figure class="item col-md-4" category="hidraulico" data-search="negro blanco hidraulico">
+                        <a href="./img/baño_pinterest (7).jpg" data-size="1200x1600">
+                            <img src="./img/baño_pinterest (7).jpg" class="img-fluid" alt="">
+                        </a>
+                        <figcaption></figcaption>
+                    </figure>
+                    <figure class="item col-md-4" category="naturales" data-search="blanco cafe naturales">
+                        <a href="./img/baño_pinterest (11).jpg" data-size="1200x1600">
+                            <img src="./img/baño_pinterest (11).jpg" class="img-fluid" alt="">
+                        </a>
+                        <figcaption></figcaption>
+                    </figure>
+                    <figure class="item col-md-4" category="maderas" data-search="negro gris cafe maderas">
+                        <a href="./img/baño_pinterest (15).jpg" data-size="1200x1600">
+                            <img src="./img/baño_pinterest (15).jpg" class="img-fluid" alt="">
+                        </a>
+                        <figcaption></figcaption>
+                    </figure>
+                    <figure class="item col-md-4" category="marmolizado" data-search="cafe beige marmolizado">
+                        <a href="./img/baño_pinterest (16).jpg" data-size="1200x1600">
+                            <img src="./img/baño_pinterest (16).jpg" class="img-fluid" alt="">
+                        </a>
+                        <figcaption></figcaption>
+                    </figure>
+                    <figure class="item col-md-4" category="maderas" data-search="negro cafe maderas">
+                        <a href="./img/baño_pinterest (18).jpg" data-size="1200x1600">
+                            <img src="./img/baño_pinterest (18).jpg" class="img-fluid" alt="">
+                        </a>
+                        <figcaption></figcaption>
+                    </figure>
+                    <figure class="item col-md-4" category="naturales" data-search="cafe beige naturales maderas">
+                        <a href="./img/baño_pinterest (19).jpg" data-size="1200x1600">
+                            <img src="./img/baño_pinterest (19).jpg" class="img-fluid" alt="">
+                        </a>
+                        <figcaption></figcaption>
+                    </figure>
+                    <figure class="item col-md-4" category="piedra" data-search="gris blanco piedra">
+                        <a href="./img/baño_pinterest (20).jpg" data-size="1200x1600">
+                            <img src="./img/baño_pinterest (20).jpg" class="img-fluid" alt="">
+                        </a>
+                        <figcaption></figcaption>
+                    </figure>
+                    <figure class="item col-md-4" category="maderas" data-search="beige blanco maderas">
+                        <a href="./img/baño_pinterest (23).jpg" data-size="1200x1600">
+                            <img src="./img/baño_pinterest (23).jpg" class="img-fluid" alt="">
+                        </a>
+                        <figcaption></figcaption>
+                    </figure>
+                    <figure class="item col-md-4" category="piedra" data-search="gris beige cafe piedra naturales">
+                        <a href="./img/baño_pinterest (24).jpg" data-size="1200x1600">
+                            <img src="./img/baño_pinterest (24).jpg" class="img-fluid" alt="">
+                        </a>
+                        <figcaption></figcaption>
+                    </figure>
+                    <figure class="item col-md-4" category="piedra" data-search="gris blanco piedra">
+                        <a href="./img/baño_pinterest (27).jpg" data-size="1000x1600">
+                            <img src="./img/baño_pinterest (27).jpg" class="img-fluid" alt="">
+                        </a>
+                        <figcaption></figcaption>
+                    </figure>
+                    <figure class="item col-md-4" category="marmolizado" data-search="gris blanco marmolizado">
+                        <a href="./img/baño_pinterest (28).jpg" data-size="1100x1600">
+                            <img src="./img/baño_pinterest (28).jpg" class="img-fluid" alt="">
+                        </a>
+                        <figcaption></figcaption>
+                    </figure>
+                    <figure class="item col-md-4" category="maderas" data-search="beige blanco maderas">
+                        <a href="./img/baño_pinterest (29).jpg" data-size="1100x1600">
+                            <img src="./img/baño_pinterest (29).jpg" class="img-fluid" alt="">
+                        </a>
+                        <figcaption></figcaption>
+                    </figure>
+                    <figure class="item col-md-4" category="naturales" data-search="blanco gris naturales">
+                        <a href="./img/baño_pinterest (31).jpg" data-size="1200x1600">
+                            <img src="./img/baño_pinterest (31).jpg" class="img-fluid" alt="">
+                        </a>
+                        <figcaption></figcaption>
+                    </figure>
+                    <figure class="item col-md-4" category="maderas "data-search="cafe beige blanco maderas">
+                        <a href="./img/baño_pinterest (32).jpg" data-size="1100x1600">
+                            <img src="./img/baño_pinterest (32).jpg" class="img-fluid" alt="">
+                        </a>
+                        <figcaption></figcaption>
+                    </figure>
+                    <figure class="item col-md-4" category="decorativo" data-search="gris beige blanco decorativo">
+                        <a href="./img/baño_pinterest (35).jpg" data-size="1100x1600">
+                            <img src="./img/baño_pinterest (35).jpg" class="img-fluid" alt="">
+                        </a>
+                        <figcaption></figcaption>
+                    </figure>
+                    <figure class="item col-md-4" category="maderas" data-search="cafe gris blanco maderas">
+                        <a href="./img/baño_pinterest (38).jpg" data-size="1100x1600">
+                            <img src="./img/baño_pinterest (38).jpg" class="img-fluid" alt="">
+                        </a>
+                        <figcaption></figcaption>
+                    </figure>
+                    <figure class="item col-md-4" category="oxido" data-search="negro blanco gris oxido">
+                        <a href="./img/baño_pinterest (39).jpg" data-size="1200x1600">
+                            <img src="./img/baño_pinterest (39).jpg" class="img-fluid" alt="">
+                        </a>
+                        <figcaption></figcaption>
+                    </figure>
+                    <figure class="item col-md-4" category="maderas" data-search="cafe beige blanco maderas">
+                        <a href="./img/baño_pinterest (40).jpg" data-size="1200x1600">
+                            <img src="./img/baño_pinterest (40).jpg" class="img-fluid" alt="">
+                        </a>
+                        <figcaption></figcaption>
+                    </figure>
+                    <figure class="item col-md-4" category="maderas" data-search="negro cafe gris maderas">
+                        <a href="./img/baño_pinterest (44).jpg" data-size="1100x1600">
+                            <img src="./img/baño_pinterest (44).jpg" class="img-fluid" alt="">
+                        </a>
+                        <figcaption></figcaption>
+                    </figure>
+                    <figure class="item col-md-4" category="piedra" data-search="gris blanco piedra">
+                        <a href="./img/baño_pinterest (47).jpg" data-size="1100x1600">
+                            <img src="./img/baño_pinterest (47).jpg" class="img-fluid" alt="">
+                        </a>
+                        <figcaption></figcaption>
+                    </figure>
+                    <figure class="item col-md-4" category="maderas" data-search="cafe blanco maderas">
+                        <a href="./img/baño_pinterest (49).jpg" data-size="1100x1600">
+                            <img src="./img/baño_pinterest (49).jpg" class="img-fluid" alt="">
+                        </a>
+                        <figcaption></figcaption>
+                    </figure>
+                    <figure class="item col-md-4" category="naturales" data-search="negro blanco naturales">
+                        <a href="./img/baño_pinterest (50).jpg" data-size="1100x1600">
+                            <img src="./img/baño_pinterest (50).jpg" class="img-fluid" alt="">
+                        </a>
+                        <figcaption></figcaption>
+                    </figure>
+                    <figure class="item col-md-4" category="hidraulico" data-search="azul blanco hidraulico">
+                        <a href="./img/baño_pinterest (53).jpg" data-size="1100x1600">
+                            <img src="./img/baño_pinterest (53).jpg" class="img-fluid" alt="">
+                        </a>
+                        <figcaption></figcaption>
+                    </figure>
+                    <figure class="item col-md-4" category="maderas" data-search="gris cafe maderas modernos">
+                        <a href="./img/baño_pinterest (54).jpg" data-size="1100x1600">
+                            <img src="./img/baño_pinterest (54).jpg" class="img-fluid" alt="">
+                        </a>
+                        <figcaption></figcaption>
+                    </figure>
+                    <figure class="item col-md-4" category="decorativo" data-search="negro blanco cafe decorativo maderas">
+                        <a href="./img/baño_pinterest (56).jpg" data-size="1000x1600">
+                            <img src="./img/baño_pinterest (56).jpg" class="img-fluid" alt="">
+                        </a>
+                        <figcaption></figcaption>
+                    </figure>
+                    <figure class="item col-md-4" category="hidraulico" data-search="baige cafe gris hidraulico">
+                        <a href="./img/baño_pinterest (58).jpg" data-size="1000x1600">
+                            <img src="./img/baño_pinterest (58).jpg" class="img-fluid" alt="">
+                        </a>
+                        <figcaption></figcaption>
+                    </figure>
+                    <figure class="item col-md-4" category="piedra" data-search="gris blanco cafe piedra">
+                        <a href="./img/baño_pinterest (60).jpg" data-size="1100x1600">
+                            <img src="./img/baño_pinterest (60).jpg" class="img-fluid" alt="">
+                        </a>
+                        <figcaption></figcaption>
+                    </figure>
+                    <figure class="item col-md-4" category="naturales" data-search="azul blanco beige naturales hidraulico">
+                        <a href="./img/baño_pinterest (65).jpg" data-size="1000x1600">
+                            <img src="./img/baño_pinterest (65).jpg" class="img-fluid" alt="">
+                        </a>
+                        <figcaption></figcaption>
+                    </figure>
+                    <figure class="item col-md-4" category="hidraulico" data-search="cafe azul beige hidraulico">
+                        <a href="./img/baño_pinterest (66).jpg" data-size="1800x1600">
+                            <img src="./img/baño_pinterest (66).jpg" class="img-fluid" alt="">
+                        </a>
+                        <figcaption></figcaption>
+                    </figure>
+                    <figure class="item col-md-4" category="naturales" data-search="gris blanco naturales">
+                        <a href="./img/baño_pinterest (67).jpg" data-size="1000x1600">
+                            <img src="./img/baño_pinterest (67).jpg" class="img-fluid" alt="">
+                        </a>
+                        <figcaption></figcaption>
+                    </figure>
+                    <figure class="item col-md-4" category="naturales" data-search="negro blanco naturales">
+                        <a href="./img/baño_pinterest (68).jpg" data-size="1000x1600">
+                            <img src="./img/baño_pinterest (68).jpg" class="img-fluid" alt="">
+                        </a>
+                        <figcaption></figcaption>
+                    </figure>
+                    <figure class="item col-md-4" category="naturales" data-search="gris blanco naturales">
+                        <a href="./img/baño_pinterest (70).jpg" data-size="1200x1600">
+                            <img src="./img/baño_pinterest (70).jpg" class="img-fluid" alt="">
+                        </a>
+                        <figcaption></figcaption>
+                    </figure>
+                    <figure class="item col-md-4" category="maderas" data-search="cafe blanco maderas">
+                        <a href="./img/baño_pinterest (71).jpg" data-size="1000x1600">
+                            <img src="./img/baño_pinterest (71).jpg" class="img-fluid" alt="">
+                        </a>
+                        <figcaption></figcaption>
+                    </figure>
+                    <figure class="item col-md-4" category="piedra" data-search="cafe beige piedra">
+                        <a href="./img/baño_pinterest (72).jpg" data-size="1000x1600">
+                            <img src="./img/baño_pinterest (72).jpg" class="img-fluid" alt="">
+                        </a>
+                        <figcaption></figcaption>
+                    </figure>
+                    <figure class="item col-md-4" category="oxido" data-search="gris beige oxido">
+                        <a href="./img/baño_pinterest (75).jpg" data-size="1000x1600">
+                            <img src="./img/baño_pinterest (75).jpg" class="img-fluid" alt="">
+                        </a>
+                        <figcaption></figcaption>
+                    </figure>
+                    <figure class="item col-md-4" category="naturales" data-search="negro blanco naturales">
+                        <a href="./img/baño_pinterest (77).jpg" data-size="1000x1600">
+                            <img src="./img/baño_pinterest (77).jpg" class="img-fluid" alt="">
+                        </a>
+                        <figcaption></figcaption>
+                    </figure>
+                    <figure class="item col-md-4" category="piedra" data-search="beige cafe piedra">
+                        <a href="./img/baño_pinterest (78).jpg" data-size="1100x1600">
+                            <img src="./img/baño_pinterest (78).jpg" class="img-fluid" alt="">
+                        </a>
+                        <figcaption></figcaption>
+                    </figure>
+                    <figure class="item col-md-4" category="piedra" data-search="gris blanco azul piedra hidraulico">
+                        <a href="./img/baño_pinterest (80).jpg" data-size="1000x1600">
+                            <img src="./img/baño_pinterest (80).jpg" class="img-fluid" alt="">
+                        </a>
+                        <figcaption></figcaption>
+                    </figure>
+                    <figure class="item col-md-4" category="piedra" data-search="beige blanco piedra">
+                        <a href="./img/baño_pinterest (81).jpg" data-size="2000x1600">
+                            <img src="./img/baño_pinterest (81).jpg" class="img-fluid" alt="">
+                        </a>
+                        <figcaption></figcaption>
+                    </figure>
+                    <figure class="item col-md-4" category="naturales" data-search="beige cafe blanco naturales">
+                        <a href="./img/baño_pinterest (83).jpg" data-size="1100x1600">
+                            <img src="./img/baño_pinterest (83).jpg" class="img-fluid" alt="">
+                        </a>
+                        <figcaption></figcaption>
+                    </figure>
+                    <figure class="item col-md-4" category="marmolizado" data-search="azul blanco modernos marmolizado">
+                        <a href="./img/baño_pinterest (91).jpg" data-size="1000x1600">
+                            <img src="./img/baño_pinterest (91).jpg" class="img-fluid" alt="">
+                        </a>
+                        <figcaption></figcaption>
+                    </figure>
+                    <figure class="item col-md-4" category="modernos" data-search="negro blanco beige modernos">
+                        <a href="./img/baño_pinterest (92).jpg" data-size="1000x1600">
+                            <img src="./img/baño_pinterest (92).jpg" class="img-fluid" alt="">
+                        </a>
+                        <figcaption></figcaption>
+                    </figure>
+                    <figure class="item col-md-4" category="marmolizado" data-search="negro blanco gris marmolizado">
+                        <a href="./img/baño_pinterest (102).jpg" data-size="1100x1800">
+                            <img src="./img/baño_pinterest (102).jpg" class="img-fluid" alt="">
+                        </a>
+                        <figcaption></figcaption>
+                    </figure>
+                    <figure class="item col-md-4" category="naturales" data-search="gris blanco naturales">
+                        <a href="./img/baño_pinterest (105).jpg" data-size="2300x1600">
+                            <img src="./img/baño_pinterest (105).jpg" class="img-fluid" alt="">
+                        </a>
+                        <figcaption></figcaption>
+                    </figure>
+                    <figure class="item col-md-4" category="modernos" data-search="gris blanco modernos piedra">
+                        <a href="./img/baño_pinterest (117).jpg" data-size="1000x1600">
+                            <img src="./img/baño_pinterest (117).jpg" class="img-fluid" alt="">
+                        </a>
+                        <figcaption></figcaption>
+                    </figure>
+                    <figure class="item col-md-4" category="marmolizado" data-search="cafe beige blanco marmolizado maderas">
+                        <a href="./img/baño_pinterest (120).jpg" data-size="1200x1600">
+                            <img src="./img/baño_pinterest (120).jpg" class="img-fluid" alt="">
+                        </a>
+                        <figcaption></figcaption>
+                    </figure>
+                    <figure class="item col-md-4" category="naturales" data-search="negro blanco naturales">
+                        <a href="./img/baño_pinterest (123).jpg" data-size="2000x1600">
+                            <img src="./img/baño_pinterest (123).jpg" class="img-fluid" alt="">
+                        </a>
+                        <figcaption></figcaption>
+                    </figure>
+                    <figure class="item col-md-4" category="naturales" data-search="azul blanco naturales">
+                        <a href="./img/baño_pinterest (124).jpg" data-size="1000x1600">
+                            <img src="./img/baño_pinterest (124).jpg" class="img-fluid" alt="">
+                        </a>
+                        <figcaption></figcaption>
+                    </figure>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Footer -->
+    <footer class="page-footer font-small darken-3">
+
+        <!-- Footer Elements -->
+        <div class="container">
+
+            <!-- Grid row-->
+            <div class="row">
+
+                <!-- Grid column -->
+                <div class="col-md-12 py-5">
+                    <div class="mb-5 flex-center">
+
+                        <!-- Facebook -->
+                        <a href="https://www.facebook.com/comfersas/" class="fb-ic">
+                            <i class="fab fa-facebook-f fa-lg white-text mr-md-5 mr-3 fa-2x"></i>
+                        </a>
+                        <!-- Twitter -->
+                        <a class="tw-ic">
+                            <i class="fab fa-twitter fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+                        </a>
+                        <!-- Google +-->
+                        <a class="gplus-ic">
+                            <i class="fab fa-google-plus-g fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+                        </a>
+                        <!--Linkedin -->
+                        <a class="li-ic">
+                            <i class="fab fa-linkedin-in fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+                        </a>
+                        <!--Instagram-->
+                        <a href="https://www.instagram.com/comfer_sas/?hl=es-la" class="ins-ic">
+                            <i class="fab fa-instagram fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+                        </a>
+                        <!--Pinterest-->
+                        <a class="pin-ic">
+                            <i class="fab fa-pinterest fa-lg white-text fa-2x"> </i>
+                        </a>
+                    </div>
+                </div>
+                <!-- Grid column -->
+
+            </div>
+            <!-- Grid row-->
+
+        </div>
+        <!-- Footer Elements -->
+
+        <!-- Copyright -->
+        <div class="footer-copyright text-center py-3">© 2020 Copyright:
+            <a href="#">COMFER S.A.S</a>
+        </div>
+        <!-- Copyright -->
+
+    </footer>
+    <!-- Footer -->
+
+    <script src="./js/jquery.min.js"></script>
+    <script src="./js/popper.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="./js/mdb.min.js"></script>
+    <script src="./js/e-search.min.js"></script>
+    <script src="./js/all.min.js"></script>
+    <script src="./js/index.js"></script>
+</body>
+
+</html>
